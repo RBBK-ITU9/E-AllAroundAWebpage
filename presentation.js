@@ -1,0 +1,38 @@
+console.log("LOADING!");
+
+window.addEventListener("keypress", (e) => {
+    if (e.keyCode == 13) {
+        next();
+    }
+});
+
+window.addEventListener("keypress", (e) => {
+    if (e.keyCode === 32) {
+        next();
+    }
+})
+
+window.addEventListener("keydown", (e) => {
+    if (e.keyCode === 39) {
+        next();
+    }
+})
+
+window.addEventListener("keydown", (e) => {
+    if (e.keyCode === 37) {
+        previous();
+    }
+})
+
+function next() {
+    console.log(window.location);
+    let index = parseInt(location.replace(`https://localhost/#${location.pathname}`));
+    index++;
+    window.location = "/" + index + ".html";
+}
+
+function previous() {
+    let index = parseInt(location.replace(`https://localhost/#${location.pathname}`));
+    index--;
+    window.location = "/" + index + ".html";
+}
