@@ -25,8 +25,8 @@ window.addEventListener("keydown", (e) => {
 })
 
 function next() {
-    console.log(window.location);
-    console.log(window.location.pathname);
+    let index = parseInt(window.location.pathname.substring(20, window.location.pathname.length - 5));
+    console.log(index);
     //let index = parseInt(location.replace(`https://rbbk-itu9.github.io/E-AllAroundAWebpage/${location.pathname}`));
     //index++;
     //window.location = "/" + index + ".html";
