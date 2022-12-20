@@ -26,10 +26,10 @@ window.addEventListener("keydown", (e) => {
 
 function next() {
     console.log(window.location);
-    console.log(location.replace(`https://rbbk-itu9.github.io/E-AllAroundAWebpage/${location.pathname}`));
+    console.log(window.location.pathname);
     let index = parseInt(location.replace(`https://rbbk-itu9.github.io/E-AllAroundAWebpage/${location.pathname}`));
     index++;
-    window.location = "/" + index + ".html";
+    //window.location = "/" + index + ".html";
 }
 
 function previous() {
