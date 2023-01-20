@@ -1,0 +1,71 @@
+body{
+    font-family: system-ui;
+    background-image: url(pictures/ToC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.h1{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+}
+
+li{
+    font-size: 30px;
+    list-style-type: disc ; 
+    font-family: system-ui;
+}
+.liDiv{
+    margin-left: 2%;
+    width: fit-content;
+}
+
+.allLiDiv{
+margin-left: 3%;
+}
+
+.imgDiv{
+    display: flex;
+    justify-content: end;
+}
+
+.docImg{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    margin-left: 80%;
+    margin-top: -22%;
+}
+
+.picDiv{
+    margin-left: 7%;
+    width: max-content;
+}
+
+iframe{
+    background-color: white;
+    margin-left: 70%;
+}
+
+.frameDiv{
+    display: grid;
+    justify-items: right;
+    margin-top: -15%;
+    width: 20%;
+}
+
+.lisMain{
+    font-size: 40px;
+    padding-left: 5%;
+    padding-top: 8%;
+    list-style-type: square;
+}
+
+.lis{
+    font-size: 40px;
+    padding-left: 5%;  
+    list-style-type: square;
+}

@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="pictures/cssIcon.png">
         <title>CSS</title>
     </head>
@@ -21,57 +22,6 @@
             <li>Embedded styles: CSS styles are defined within the style element in the head section of an HTML document</li>
             <li>External styles: CSS styles are defined in a separate .css file, which is then linked to an HTML document using the link element in the head section</li>
         </div>
-        <footer>
-            <input type="button" class="np" onclick="next()" value="Next Page">
-            <input type="button" class="pp" onclick="previous()" value="Previous Page">
-        </footer>
-        <style>
-            body{
-                font-family: system-ui;
-                background-image: url(pictures/ToC.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                color: whitesmoke;
-            }
-
-            .h1 {
-                font-size: 80px;
-                display: flex;
-                justify-content: center;
-                margin-top: 3%;
-            }
-
-            .np{
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            } 
-            
-            .pp{
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            }
-
-            li{
-                font-size: 30px;
-                list-style-type: disc ; 
-                font-family: system-ui;
-            }
-
-            .liDiv{
-                margin-left: 2%;
-                width: fit-content;
-            }
-        </style>
         <script src="presentation.js" defer></script>
     </body>
 </html>

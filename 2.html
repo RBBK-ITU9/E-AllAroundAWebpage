@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="pictures/icoHTML.png">
         <title>HTML</title>
     </head>
@@ -26,75 +27,6 @@
                 <img src="pictures/Doctype.png">
             </div>
         </div>
-
-        <footer>
-            <input type="button" class="np" onclick="next()" value="Next Page">
-            <input type="button" class="pp" onclick="previous()" value="Previous Page">
-        </footer>
-
-        <style>
-            body{
-                font-family: system-ui;
-                background-image: url(pictures/ToC.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                color: whitesmoke;
-            }
-
-            .h1 {
-                font-size: 70px;
-                display: flex;
-                justify-content: center;
-            }
-
-            .np{
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            } 
-        
-            .pp{
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            }
-
-            li{
-            font-size: 25px;
-            list-style-type: disc ; 
-            font-family: system-ui;
-            }
-
-            .liDiv{
-                margin-left: 2%;
-                width: fit-content;
-            }
-
-            .allLiDiv{
-            margin-left: 3%;
-            }
-
-            .imgDiv{
-                display: flex;
-                justify-content: end;
-            }
-
-            .docImg{
-                display: flex;
-                justify-content: end;
-                width: 20%;
-                margin-left: 80%;
-                margin-top: -22%;
-            }
-        </style>
-            <script src="presentation.js" defer></script>
+        <script src="presentation.js" defer></script>
     </body>
 </html>

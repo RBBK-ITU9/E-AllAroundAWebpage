@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Table of Content</title>
     </head>
     <body>
@@ -18,12 +19,6 @@
         <li class="li">Web frameworks</li>
         <li class="li">Web server</li>
         <li class="li">Sources</li>
-    
-        <footer>
-            <input type="button" class="np" onclick="next()" value="Next page">
-            <input type="button" class="pp" onclick="previous()" value="Previous Page">
-        </footer>
-
         <style>
             body{
                 font-family: 'Noto Sans', sans-serif;
@@ -31,7 +26,6 @@
                 color: whitesmoke;
                 background-repeat: no-repeat;
                 background-size: cover;
-
             }
 
             h1{
@@ -46,36 +40,13 @@
                 padding-left: 5%;
                 padding-top: 8%;
                 list-style-type: square;
-                
-                
             }
-            
+
             .li{
                 font-size: 40px;
                 padding-left: 5%;  
                 list-style-type: square;
             }
-
-            .np{
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            } 
-        
-            .pp{
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                font-size: 15px;
-                background-color: white;
-                font-family: system-ui;
-                border-radius: 10px;
-            }
-
         </style>
         <script src="presentation.js" defer></script>
     </body>
