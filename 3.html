@@ -1,85 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Example</title>
-    <link rel="icon" href="pictures/icoHTML.png">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Example</title>
+        <link rel="icon" href="pictures/icoHTML.png">
+    </head>
+    <body>
+        <h1 class="h1">Exaple Code</h1>
+        <div class="picDiv">
+            <h2>This is the syntax of the exaple code</h2>
+            <img src="pictures/CodeExapleHTML.png" class="">
+        </div>
 
-<h1 class="h1">Exaple Code</h1>
-
-
-<div class="picDiv">
-    <h2>This is the syntax of the exaple code</h2>
-    <img src="pictures/CodeExapleHTML.png" class="">
-</div>
-
-
-
-<footer>
-    <input type="button" class="np" onclick="next()" value="Next Page">
-    <input type="button" class="pp" onclick="previous()" value="Previous Page">
-</footer>
-    <style>
-        body{
-         font-family: system-ui;
-         background-image: url(pictures/ToC.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: whitesmoke;
-        }
-
-        .h1 {
-            font-size: 80px;
-            display: flex;
-            justify-content: center;
-            margin-top: 3%;
-        }
-
-       
-
-        .np{
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            font-size: 15px;
-            background-color: white;
-            font-family: system-ui;
-            border-radius: 10px;
-        } 
+        <footer>
+            <input type="button" class="np" onclick="next()" value="Next Page">
+            <input type="button" class="pp" onclick="previous()" value="Previous Page">
+        </footer>
         
-        .pp{
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            font-size: 15px;
-            background-color: white;
+        <style>
+            body{
             font-family: system-ui;
-            border-radius: 10px;
-        }
+            background-image: url(pictures/ToC.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: whitesmoke;
+            }
 
-        .picDiv{
-            margin-left: 7%;
-            width: max-content;
-        }
+            .h1 {
+                font-size: 80px;
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+            }
 
-        iframe{
-           background-color: white;
-           margin-left: 70%;
-        }
+            .np{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            } 
+            
+            .pp{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            }
 
-        .frameDiv{
-            display: grid;
-            justify-items: right;
-            margin-top: -15%;
-            width: 20%;
-        }
+            .picDiv{
+                margin-left: 7%;
+                width: max-content;
+            }
 
-       
-    </style>
-    <script src="presentation.js" defer></script>
-</body>
+            iframe{
+            background-color: white;
+            margin-left: 70%;
+            }
+
+            .frameDiv{
+                display: grid;
+                justify-items: right;
+                margin-top: -15%;
+                width: 20%;
+            }
+        </style>
+        <script src="presentation.js" defer></script>
+    </body>
 </html>

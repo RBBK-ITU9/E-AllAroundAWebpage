@@ -1,74 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Server</title>
-</head>
-<body>
-    <h1>All around the Web Server</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Server</title>
+    </head>
+    <body>
+        <h1>All around the Web Server</h1>
 
-    <div>
-        <li>A web server is a software program or a hardware device that is responsible for processing client requests for web pages and delivering the requested content to the client</li>
-        <li>HTTP (Hypertext Transfer Protocol) to communicate with the clients</li>
-        <li>Web servers handle HTML pages, JSON, XML, etc. filer formats</li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </div>
+        <div>
+            <li>A web server is a software program or a hardware device that is responsible for processing client requests for web pages and delivering the requested content to the client</li>
+            <li>HTTP (Hypertext Transfer Protocol) to communicate with the clients</li>
+            <li>Web servers handle HTML pages, JSON, XML, etc. filer formats</li>
+        </div>
+        <div>
+            <h2>Web Server types</h2>
+            <li>Apache</li>
+            <li>Nginx</li>
+            <li>Microsoft IIS</li>
+            <li>Lighttpd</li>
+            <li>Caddy</li>
+        </div>
+        <footer>
+            <input type="button" class="np" onclick="next()" value="Next Page">
+            <input type="button" class="pp" onclick="previous()" value="Previous Page">
+        </footer>
+        <style>
+            body{
+                font-family: system-ui;
+                background-image: url(pictures/ToC.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: whitesmoke;
+            }
 
-    <div>
-        <h2>Web Server types</h2>
-        <li>Apache</li>
-        <li>Nginx</li>
-        <li>Microsoft IIS</li>
-        <li>Lighttpd</li>
-        <li>Caddy</li>
-    </div>
+            .h1 {
+                font-size: 80px;
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+            }
 
-    <footer>
-        <input type="button" class="np" onclick="next()" value="Next Page">
-        <input type="button" class="pp" onclick="previous()" value="Previous Page">
+            .np{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            } 
         
-    <style>
-        body{
-        font-family: system-ui;
-        background-image: url(pictures/ToC.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
-       color: whitesmoke;
-       }
-
-       .h1 {
-           font-size: 80px;
-           display: flex;
-           justify-content: center;
-           margin-top: 3%;
-       }
-
-      
-
-       .np{
-           position: fixed;
-           bottom: 0;
-           right: 0;
-           font-size: 15px;
-           background-color: white;
-           font-family: system-ui;
-           border-radius: 10px;
-       } 
-       
-       .pp{
-           position: fixed;
-           bottom: 0;
-           left: 0;
-           font-size: 15px;
-           background-color: white;
-           font-family: system-ui;
-           border-radius: 10px;
-       }
-    </style>
-    <script src="presentation.js" defer></script>
-</body>
+            .pp{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            }
+        </style>
+        <script src="presentation.js" defer></script>
+    </body>
 </html>

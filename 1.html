@@ -1,85 +1,78 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table of Content</title>
-</head>
-<body>
-    <h1>TABLE OF CONTENT</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table of Content</title>
+    </head>
+    <body>
+        <h1>TABLE OF CONTENT</h1>
 
-    <li class="liMain">HTML</li>
-    <li class="li">Example code</li>
-    <li class="li">CSS</li>
-    <li class="li">JS</li>
-    <li class="li">PHP</li>
-    <li class="li">SQL and Databases</li>
-    <li class="li">Web frameworks</li>
-    <li class="li">Web server</li>
-    <li class="li">Sources</li>
+        <li class="liMain">HTML</li>
+        <li class="li">Example code</li>
+        <li class="li">CSS</li>
+        <li class="li">JS</li>
+        <li class="li">PHP</li>
+        <li class="li">SQL and Databases</li>
+        <li class="li">Web frameworks</li>
+        <li class="li">Web server</li>
+        <li class="li">Sources</li>
     
+        <footer>
+            <input type="button" class="np" onclick="next()" value="Next page">
+            <input type="button" class="pp" onclick="previous()" value="Previous Page">
+        </footer>
 
-    
+        <style>
+            body{
+                font-family: 'Noto Sans', sans-serif;
+                background-image: url(pictures/ToC.jpg);
+                color: whitesmoke;
+                background-repeat: no-repeat;
+                background-size: cover;
 
-     <footer>
-        <input type="button" class="np" onclick="next()" value="Next page">
-        <input type="button" class="pp" onclick="previous()" value="Previous Page">
-     </footer>
+            }
 
-    <style>
-        body{
-            font-family: 'Noto Sans', sans-serif;
-            background-image: url(pictures/ToC.jpg);
-            color: whitesmoke;
-            background-repeat: no-repeat;
-            background-size: cover;
+            h1{
+                font-size: 48px;
+                display: flex;
+                justify-content: center;
+                padding-top: 1% ;
+            }
 
-        }
-
-        h1{
-            font-size: 48px;
-            display: flex;
-            justify-content: center;
-            padding-top: 1% ;
-        }
-
-        .liMain{
-            font-size: 40px;
-            padding-left: 5%;
-            padding-top: 8%;
-            list-style-type: square;
+            .liMain{
+                font-size: 40px;
+                padding-left: 5%;
+                padding-top: 8%;
+                list-style-type: square;
+                
+                
+            }
             
-            
-        }
-        
+            .li{
+                font-size: 40px;
+                padding-left: 5%;  
+                list-style-type: square;
+            }
 
-        .li{
-            font-size: 40px;
-            padding-left: 5%;  
-            list-style-type: square;
-        }
+            .np{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                background-color: white;
+                font-family: 'Noto Sans', sans-serif;
+            }
 
-        .np{
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            background-color: white;
-            font-family: 'Noto Sans', sans-serif;
-        }
+            .pp{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                background-color: white;
+                font-family: 'Noto Sans', sans-serif;
+            }
 
-        .pp{
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            background-color: white;
-            font-family: 'Noto Sans', sans-serif;
-        }
-
-    </style>
-
-
-<script src="presentation.js" defer></script>
-     
-     </body>
+        </style>
+        <script src="presentation.js" defer></script>
+    </body>
 </html>

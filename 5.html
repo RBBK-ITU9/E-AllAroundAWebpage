@@ -1,82 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS</title>
-</head>
-<body>
-    <h1 class="h1">JS</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS</title>
+    </head>
+    <body>
+        <h1 class="h1">JS</h1>
+        <li>JS means JavaScript</li>
+        <li>JavaScript gives the website the logic</li>
+        <li>It is a script language</li>
+        <li>you can make with JavaScript user interactions, change the content and make aimations</li>
+        <br>
+        <br>
+        <div class="codeExample">
+            <img src="pictures/Js.png">
+        </div>
 
-    <li>JS means JavaScript</li>
-    <li>JavaScript gives the website the logic</li>
-    <li>It is a script language</li>
-    <li>you can make with JavaScript user interactions, change the content and make aimations</li>
+        <footer>
+            <input type="button" class="np" onclick="next()" value="Next Page">
+            <input type="button" class="pp" onclick="previous()" value="Previous Page">
+        </footer>
 
-    <br>
-    <br>
-    <div class="codeExample">
-        <img src="pictures/Js.png">
-    </div>
+        <style>
 
-    <footer>
-        <input type="button" class="np" onclick="next()" value="Next Page">
-        <input type="button" class="pp" onclick="previous()" value="Previous Page">
-    
-    <style>
+            body{
+                font-family: system-ui;
+                background-image: url(pictures/ToC.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: whitesmoke;
+            }
 
-        body{
-        font-family: system-ui;
-         background-image: url(pictures/ToC.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: whitesmoke;
-        }
+            .h1 {
+                font-size: 80px;
+                display: flex;
+                justify-content: center;
+                margin-top: 3%;
+            }
 
-        .h1 {
-            font-size: 80px;
-            display: flex;
-            justify-content: center;
-            margin-top: 3%;
-        }
+            .np{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            } 
+            
+            .pp{
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                font-size: 15px;
+                background-color: white;
+                font-family: system-ui;
+                border-radius: 10px;
+            }
 
-       
-
-        .np{
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            font-size: 15px;
-            background-color: white;
+            li{
+            font-size: 25px;
+            list-style-type: disc ; 
             font-family: system-ui;
-            border-radius: 10px;
-        } 
-        
-        .pp{
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            font-size: 15px;
-            background-color: white;
-            font-family: system-ui;
-            border-radius: 10px;
-        }
+            }
 
-        li{
-          font-size: 25px;
-          list-style-type: disc ; 
-          font-family: system-ui;
-        }
-
-    .liDiv{
-        margin-left: 2%;
-        width: fit-content;
-    }
-
-
-    </style>
-    <script src="presentation.js" defer></script>
-
-</body>
+            .liDiv{
+                margin-left: 2%;
+                width: fit-content;
+            }
+        </style>
+        <script src="presentation.js" defer></script>
+    </body>
 </html>
