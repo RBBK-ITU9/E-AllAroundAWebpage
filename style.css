@@ -19,12 +19,8 @@ li{
     font-family: system-ui;
 }
 .liDiv{
-    margin-left: 2%;
+    margin-left: 3%;
     width: fit-content;
-}
-
-.allLiDiv{
-margin-left: 3%;
 }
 
 .imgDiv{
