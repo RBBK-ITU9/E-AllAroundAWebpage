@@ -66,3 +66,11 @@ iframe{
     padding-left: 5%;  
     list-style-type: square;
 }
+
+.codeExample{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    margin-left: 80%;
+    margin-top: -22%;
+}
