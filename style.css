@@ -29,14 +29,6 @@ li{
     justify-content: end;
 }
 
-.docImg{
-    display: flex;
-    justify-content: end;
-    width: 20%;
-    margin-left: 80%;
-    margin-top: -22%;
-}
-
 .picDiv{
     margin-left: 7%;
     width: max-content;
@@ -67,7 +59,22 @@ iframe{
     list-style-type: square;
 }
 
-.codeExample{
+.HTMLCodeExample{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    margin-left: 80%;
+    margin-top: -22%;
+}
+
+.JSCodeExample{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+    margin-left: 75%;
+}
+
+.phpCodeExample{
     display: flex;
     justify-content: end;
     width: 20%;
