@@ -81,3 +81,8 @@ iframe{
     margin-left: 80%;
     margin-top: -22%;
 }
+.sqlCodeExample{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+}
