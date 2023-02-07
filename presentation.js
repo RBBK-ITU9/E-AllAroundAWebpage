@@ -26,6 +26,7 @@ window.addEventListener("keydown", (e) => {
 
 function next() {
     let index = parseInt(window.location.pathname.substring(21, window.location.pathname.length - 5));
+    if (index >= 10) return;
     window.location = (index + 1) + ".html";
 }
 
